@@ -1,1 +1,26 @@
 <h1> Home Page </h>
+
+<script> 
+	function PRINT(something){
+		something["Elang"].forEach((thing)=> {
+			var div = document.createElement("div");
+			var title = document.createElement("h1");
+			var link = document.createElement("a");
+			var photo = document.createElement("img");
+			title.innerText = thing["title"];
+			link.href = thing["link"];
+			link.innerText = "Link";
+			photo.src = thing["imgpath"];
+			div.appendChild(title);
+			div.appendChild(link);
+			div.appendChild(photo);
+			document.getElementById("home").appendChild(div);
+		});
+	}
+
+	fetch("https://ayman707.github.io/simpleExample/thingy.json")
+		.then(x => x.json())
+		.then(y => PRINT(y));
+</script>
+
+<div id="home"></div>
