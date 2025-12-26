@@ -1,4 +1,12 @@
 {
 	"first" : "Hello",
-	"second" : "Hi"
+	"second" : "Hi",
+	"Elang" : [
+		{
+			"id" : 1,
+			"title" : "dualingo",
+			"imgpath" : "photos/duolingo.png",
+			"link" : "https://www.dualingo.com"
+		}
+	]
 }
