@@ -7,6 +7,12 @@
 			"title" : "dualingo",
 			"imgpath" : "photos/dualingo.png",
 			"link" : "https://www.dualingo.com"
+		},
+		{
+			"id" : 2,
+			"title" : "babble",
+			"imgpath" : "photos/babble.png",
+			"link" : "https://www.babbel.com"
 		}
 	]
 }
